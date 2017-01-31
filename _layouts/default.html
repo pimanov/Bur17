@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <title> {{ site.title }} | {{ page.title }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/2017/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/2017/new.css" />
+    <script src="/2017/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div style="background-color: #fff">
+      <div style="float: left; margin: 20px 25px 0px 25px"><a href="{{site.baseurl}}" title="Домой"><img src="/2017/img/logo.jpg" alt="logo" width="100px"/></a></div>
+      <div style="float: left; margin: 10px 10px 10px 10px" >
+        <br>
+          
+          <span style="font-size: 20px; color: #ea7500">Московский государственный университет имени М.В. Ломоносова и </span><br>
+	  <span style="font-size: 20px; color: #ea7500">НИИ механики МГУ проводят молодёжную конференцию </span><br>
+          <div style="margin: 5px 5px 5px 5px">
+  	    <span style="font-size: 32px; font-family: Arial Narrow; color: #cc5500"><b> «Всероссийская конференция молодых учёных-механиков»</b></span></br>
+          </div>
+	  <span style="font-size: 20px; color: #ea7500">5 &mdash; 15 сентября 2017, Пансионат МГУ "Буревестник", Большой Сочи. </span><br>
+      </div>
+      <div style="float: right; margin: 0px 10px 10px 10px">
+          
+      </div>
+      <div style="clear: left"><br></div>
+    </div>
+    <div style="width: 100%; background-color: #ff8800; height: 2px"></div>
+    <div id="location"> 
+      <a href="{{site.baseurl}}">Домой</a> &gt; <a href="{{ page.url }}">{{ page.title }}</a>
+    </div>
+    <div id="container">
+      <div id="sidebar">
+    	<ul class="body">
+          <li><a href="/2017/index.html">О конференции</a></li>
+          <li><a href="/2017/org.html">Организаторы</a></li>
+          <li><a href="/2017/invited.html">Приглашенные лекции</a></li>
+          <li><a href="/2017/format.html">Формат проведения</a></li>
+          <li><a href="/2017/dates.html">Ключевые даты</a></li>
+          <li><a href="/2017/place.html">Место проведения и проезд</a></li>
+          <!--li><a href="/2017/programm.html">Программа</a></li-->
+          <!--li><a href="/2017/book.html">Сборник тезисов</a></li-->
+          <li><a href="/2017/fee.html">Оплата</a></li>
+          <li><a href="/2017/abstracts.html">Тезисы докладов</a></li>
+          <li><a href="/index.html">Новости</a></li>
+          <li><a href="/2017/downloads.html">Файлы</a></li>
+          <li><a href="/2017/contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <div id="content" class="body">
+          {{ content }}
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p>
+        По вопросам, связанным с сайтом, обращайтесь: <a id="contact"><script>document.write(f('yand', 'pimanov-vla', 'ex.ru', 'dimir'))</script></a>
+      </p>
+      <p>Дата последнего изменения на сайте {{ site.time | localize: "%d %B %Y" }}</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+# _config.yml
+
+exclude: ['README.md','send.sh','docs']
+#name: SiteName # наименование блога
+markdown: redcarpet # используемый генератор markdown
+redcarpet: # и его расширения
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink",
+  "tables", "with_toc_data", "underline", "highlight", "quote",
+  "footnotes", "strikethroug", "space_after_headers", "smart"]
+#pygments: true # подсветка синтаксиса с pygments
+
+#timezone: Asia/Novosibirsk # временная зона
+#encoding: windows-1251 # кодировка
+
+# При выводе всех постов на одной странице
+# используем постраничный вывод
+# paginate: 6
+# paginate_path: 'page:num'
+
+# Если постраничный вывод не нужен
+#paginate_path: #none
+
+# Путь к постам
+# в примере SiteName/posts/PostName
+
+#relative_permalinks: false
+#permalink: /posts/:title
+
+# Использование тегов для постов
+# с плагином jekyll-tagging: https://github.com/pattex/jekyll-tagging
+#tag_page_layout: tag_page
+#tag_page_dir: tags
+
+# не публиковать посты, указанное время которых
+# позднее времени момента публикации
+
+#future: false
+
+# можно изменить место дислокации
+# выходных файлов
+
+#destination: public
+
+# тайтл, описание, url
+title: YSM - September 2017, Bolshoy Sochi
+description: Всероссийская конференция молодых учёных-механиков, которая пройдет с 5 по 15 сентября 2017 года в Пансионате МГУ "Буревестник", район большого Сочи.
+url: http://youngschool.imec.msu.ru/
+
+# при локальной настройке
+# следует указать localhost
+# url: http://localhost:4000
